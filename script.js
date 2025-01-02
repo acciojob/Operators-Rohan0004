@@ -1,7 +1,7 @@
 //your JS code here. If required.
 function change_text() {
-	var ele = document.getElementById("division");
-	ele.innerHTML = "Bye<br>Good Bye<br>To<br>Your<br>Class<br>";
+	var ele = document.getElementsByClassName("division")[0];
+	ele.innerHTML = "<div>Bye</div><div>Good Bye</div><div>To</div><div>Your</div><div>Class</div>";
 }
 
 function calculate() {
